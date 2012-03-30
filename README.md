@@ -1,6 +1,6 @@
 # is_email
 
-This package is a wrapper for the [is_email() function](http://isemail.info/about) for [FuelPHP](http://fuelphp.com/)
+This package is a wrapper for the [is_email() function](http://isemail.info/about) for the [FuelPHP Framework](http://fuelphp.com/).
 
 The ```Validation``` class in FuelPHP uses PHP's [filter_var() function](http://php.net/manual/en/function.filter-var.php) method which may not be as accurate as ```is_email()```, though I imagine this only causes problems in extreme cases that aren't likely to happen, but still, it is worth doing things in the best way that you can.
 
